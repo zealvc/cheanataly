@@ -1,0 +1,53 @@
+body
+{
+	font-family: verdena;
+}
+.LeftFloat
+{
+	float: left;
+}
+.Image
+{
+	width: 193px;
+	height: 72px;
+	padding-left: 150px;
+}
+.List
+{
+	float: left;
+	padding-left: 20px;
+}
+.TryBut
+{
+	background-color: blue;
+	color: white;
+	border-color: blue;
+	margin-left: 450px;
+	padding: 5px 5px;
+	float: left;
+}
+.BuyButton
+{
+	background-color: white;
+	border-color: white;
+	margin-left: 600px;
+	float: left;
+}
+.Background
+{
+	width: 1503px;
+	height: 495px;
+	background-image: url(https://wac-cdn.atlassian.com/dam/jcr:4ad14d09-926b-431d-92c4-339a548b53b3/Summit2019-WACTakeover-MobileHero.png?cdnVersion=ld);
+	background-repeat: no-repeat;
+	background-color: #172B4D;
+}
+.RegButton
+{
+	background-color: unset;
+	border-color: #00C7E5;
+	width: 136px;
+	height: 35px;
+	margin-left: 500px;
+	color: white;
+	margin-top: 100px;
+}
