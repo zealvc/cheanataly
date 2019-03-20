@@ -11,6 +11,10 @@ body
 	margin-left: 0px;
 	padding-top: 5px;
 }
+.DropDown{
+	width: 10px;
+	height: 10px;
+}
 .Image
 {
 	width: 193px;
@@ -43,25 +47,43 @@ body
 	padding-top: 8px;
 }
 .SEAR{
-	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTdweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTcgMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ2LjIgKDQ0NDk2KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5Hcm91cCAyPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9Ik5hdmlnYXRpb24iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJXQUMtRGVza3RvcC13aWRlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTI4Ny4wMDAwMDAsIC0yNi4wMDAwMDApIiBzdHJva2U9IiNBNUFEQkEiPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI4OC4wMTAwMjQsIDI3LjAzMzg3MCkiPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTEyLDEzIEwxNC41LDE1LjUiIGlkPSJMaW5lLTIiIHN0cm9rZS13aWR0aD0iMi43NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48L3BhdGg+CiAgICAgICAgICAgICAgICA8Y2lyY2xlIGlkPSJPdmFsIiBzdHJva2Utd2lkdGg9IjIuMjUiIGN4PSI3LjA1MTgyNjk1IiBjeT0iNy4wNzU3MTU2NCIgcj0iNi4zNzUiPjwvY2lyY2xlPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=);
-	background-repeat: no-repeat;
-	width: 29px;
-	height: 29px;
-	padding-top: 5px;
+	width: 19px;
+	height: 19px;
+	padding-top: 8px;
+	margin-left: 25px;
 }
 .cc{
-	margin-left: 80px;
+	margin-left: 40px;
 	text-decoration: none;
 	color: grey;
+	margin-top: 10px;
 }
 .cd{
 	margin-left: 30px;
 	text-decoration: none;
 	color: grey;
 }
+.ce{
+	width: 29px;
+	height: 29px;
+	float: left;
+}
+.cf{
+	float: left;
+	margin-top: 7px;
+}
+.cg{
+	width: 11px;
+	height: 8px;
+	margin-top: 3px;
+}
+.ch{
+	text-decoration: none;
+	color: #0052CC;
+}
 .Background
 {
-	width: 1503px;
+	width: 100%;
 	height: 335px;
 	background-image: url(https://wac-cdn.atlassian.com/dam/jcr:4ad14d09-926b-431d-92c4-339a548b53b3/Summit2019-WACTakeover-MobileHero.png?cdnVersion=ld);
 	background-repeat: no-repeat;
@@ -153,7 +175,7 @@ body
 }
 .i{
 	height: 1100px;
-	width: 1503px;
+	width: 100%;
 }
 .j{
 	width: 391px;
@@ -313,6 +335,7 @@ body
 .aa{
 	text-decoration: none;
 	margin-left: 5px;
+	color: #0052CC;
 }
 .ab{
 	float: left;
@@ -361,6 +384,7 @@ body
 	font-size: 16px;
 	text-decoration: none;
 	margin-left: 640px;
+	color: #0052CC;
 }
 .ah{
 	height: 200px;
@@ -455,7 +479,7 @@ body
 	height: 37.5px;
 }
 .ay{
-	margin-left: 0px;
+	margin-left: 15px;
 	float: left;
 	text-decoration: none;
 }
@@ -560,7 +584,7 @@ body
 	opacity: 20%;
 }
 .br{
-	margin-top: 5px;
+	margin-top: 25px;
 	float: left;
 	margin-left: 165px;
 }
@@ -599,4 +623,49 @@ body
 }
 .bz{
 	padding-top: 20px;
+}
+.ci{
+	width: 32px;
+	height: 32px;
+	margin-left: 20px;
+}
+.cj{
+	list-style-type: none;
+	float: left;
+}
+.ck{
+	width: 22px;
+	height: 22px;
+}
+.cm{
+	margin-left: 240px;
+	float: left;
+}
+div.ul.li:hover {
+	background-color: grey;
+
+}
+div.a:hover{
+	text-decoration: underline;
+}
+
+<!-- iPad or Tablet -->
+
+@media only screen and (min-width: 375px)
+{
+	.Image
+	{
+		width: 161px;
+		height: 20px;
+		padding-left: 30px;
+		padding-top: 16px;
+		padding-right: 0px;
+	}
+	.ca{
+		display: none;
+	}
+	.List{
+		display: none;
+	}
+	
 }
