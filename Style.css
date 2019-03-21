@@ -1,6 +1,7 @@
 body
 {
-	font-family: Merriweather Sans;
+	font-family: 'Merriweather Sans', sans-serif;
+	margin: 0px 0px;
 }
 .LeftFloat
 {
@@ -34,9 +35,11 @@ body
 	color: white;
 	border-color: #0052CC;
 	margin-left: 211px;
-	padding: 7px 15px;
+	padding: 8px 20px;
 	float: left;
-	border-radius: 5px;
+	border-radius: 3px;
+	border-style: none;
+	margin-top: 3px;
 }
 .BuyButton
 {
@@ -98,6 +101,7 @@ body
 	height: 35px;
 	margin-left: 690px;
 	color: white;
+	border-radius: 3px;
 }
 .a{
 	float: left;
@@ -133,7 +137,7 @@ body
 	margin-top: 30px;
 }
 .g{
-	width: 973px;
+	width: 983px;
 	height: 230px;
 	float: left;
 	padding-left: 30px;
@@ -153,7 +157,9 @@ body
 .TakeButton{
 	color: #0052CC;
 	border-color: #0052CC;
-	background-color: white;
+	background-color: #F7F7F7;
+	border-radius: 3px;
+	padding: 5px 10px;
 }
 .ToolCrit
 {
@@ -258,7 +264,7 @@ body
 }
 .q{
 	background-color: #F7F7F7;
-	width: 1503px;
+	width: 100%;
 	height: 280px;
 }
 .r{
@@ -273,10 +279,12 @@ body
 .GETbutton{
 	background-color: #79F2C0;
 	border-color: #79F2C0;
-	padding: 10px;
+	padding: 10px 20px;
 	margin-left: 650px;
 	border-radius: 5px;
 	font-size: 16px;
+	border-style: none;
+	margin-top: 10px;
 }
 .t{
 	margin-top: 30px;
@@ -317,7 +325,11 @@ body
 .y{
 	margin-left: 165px;
 	float: left;
-	height: 410px;
+	height: 473px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
 }
 .TELEimg{
 	width: 369.66px;
@@ -327,6 +339,10 @@ body
 	width: 309.66px;
 	padding: 30px 30px;
 	height: 180px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
 }
 .TELELimg{
 	width: 192px;
@@ -379,6 +395,7 @@ body
 }
 .af{
 	height: 100px;
+	margin-top: 40px;
 }
 .ag{
 	font-size: 16px;
@@ -387,7 +404,7 @@ body
 	color: #0052CC;
 }
 .ah{
-	height: 200px;
+	height: 210px;
 }
 .ai{
 	width: 580.5px;
@@ -522,7 +539,7 @@ body
 	height: 31.5px;
 }
 .bf{
-	width: 1503px;
+	width: 100%;
 	height: 355px;
 	background-color: #F7F7F7;
 	padding-top: 20px;
@@ -578,7 +595,7 @@ body
 	height: 10px;
 }
 .SMAli{
-	width: 1503px;
+	width: 100%;
 	height: 0.5px;
 	background-color: grey;
 	opacity: 20%;
