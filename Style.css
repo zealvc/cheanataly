@@ -12,6 +12,9 @@ body
 	margin-left: 0px;
 	padding-top: 5px;
 }
+.Navi{
+	height: 63px;
+}
 .DropDown{
 	width: 10px;
 	height: 10px;
@@ -87,11 +90,12 @@ body
 .Background
 {
 	width: 100%;
-	height: 335px;
+	height: 385px;
 	background-image: url(https://wac-cdn.atlassian.com/dam/jcr:4ad14d09-926b-431d-92c4-339a548b53b3/Summit2019-WACTakeover-MobileHero.png?cdnVersion=ld);
 	background-repeat: no-repeat;
 	background-color: #172B4D;
 	padding-top: 160px;
+	object-fit: cover;
 }
 .RegButton
 {
@@ -118,12 +122,14 @@ body
 	text-align: center;
 	color: white;
 	font-size: 44px;
+	overflow: auto;
 }
 .e{
 	text-align: center;
 	color: white;
 	font-size: 20px;
 	margin-top: 0px;
+	overflow: auto;
 }
 .f{
 	width: 500px;
@@ -182,6 +188,7 @@ body
 .i{
 	height: 1100px;
 	width: 100%;
+	margin-top: 50px;
 }
 .j{
 	width: 391px;
@@ -270,11 +277,18 @@ body
 .r{
 	text-align: center;
 	font-size: 36px;
+	color: #253858;
+}
+.ra{
+	text-align: center;
+	font-size: 36px;
+	color: #253858;
 }
 .s
 {
 	text-align: center;
 	font-size: 16px;
+	color: #253858;
 }
 .GETbutton{
 	background-color: #79F2C0;
@@ -303,16 +317,19 @@ body
 }
 .v{
 	font-size: 24px;
+	color: #253858;
 }
 .GREYbar{
 	width: 1200px;
 	height: 2px;
-	color: #F7F7F7;
-	background-color: grey;
+	color: #EBEBEB;
+	background-color: #EBEBEB;
 	margin-left: 150px;
+	border-style: none;
 }
 .w{
 	height: 250px;
+	margin-top: 100px;
 }
 .DESKimg{
 	width: 1150px;
@@ -326,10 +343,9 @@ body
 	margin-left: 165px;
 	float: left;
 	height: 473px;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-	border-bottom: 1px solid black;
-	border-top: 1px solid black;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
 }
 .TELEimg{
 	width: 369.66px;
@@ -339,10 +355,6 @@ body
 	width: 309.66px;
 	padding: 30px 30px;
 	height: 180px;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-	border-bottom: 1px solid black;
-	border-top: 1px solid black;
 }
 .TELELimg{
 	width: 192px;
@@ -356,7 +368,10 @@ body
 .ab{
 	float: left;
 	margin-left: 31px;
-	height: 410px;
+	height: 473px;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
 }
 .YOU{
 	background-image: url(https://wac-cdn.atlassian.com/dam/jcr:6d9dff44-2ca5-4310-b2f0-a7a88e67fe95/Customers-ANZ.jpg?cdnVersion=ld);
@@ -376,7 +391,10 @@ body
 	float: left;
 	margin-left: 31px;
 	margin-right: 165px;
-	height: 460px;
+	height: 473px;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
 }
 .CANimg{
 	width: 369.66px;
@@ -499,6 +517,7 @@ body
 	margin-left: 15px;
 	float: left;
 	text-decoration: none;
+	width: 200px;
 }
 .az{
 	color: #0052CC;
@@ -513,7 +532,7 @@ body
 .bb{
 	float: left;
 	margin-left: 60px;
-	width: 341px;
+	width: 401px;
 }
 .BLOGimg{
 	width: 40px;
@@ -522,7 +541,7 @@ body
 .bc{
 	float: left;
 	margin-left: 15px;
-	width: 250px;
+	width: 320px;
 }
 .bd{
 	font-size: 16px;
@@ -531,8 +550,8 @@ body
 }
 .be{
 	float: left;
-	width: 341px;
-	margin-left: 53px;
+	width: 401px;
+	margin-left: 0px;
 }
 .NEWSimg{
 	width: 40px;
@@ -568,6 +587,7 @@ body
 .bk{
 	text-decoration: none;
 	color: #42526E;
+	font-size: 14px;
 }
 .bl{
 	margin-top: 5px;
@@ -592,7 +612,9 @@ body
 }
 .bq{
 	margin-top: 50px;
-	height: 10px;
+	height: 2px;
+	border-bottom: 1px solid #091E42;
+	opacity: 0.8;
 }
 .SMAli{
 	width: 100%;
@@ -607,12 +629,12 @@ body
 }
 .bs{
 	float: left;
-	width: 30px;
+	width: 100px;
 }
 .INTimg{
-	background-image: url(data:image/svg+xml;base64,Cjxzdmcgd2lkdGg9IjI1cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI1IDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA1MS4yICg1NzUxOSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPgogICAgICAgIDxwYXRoIGQ9Ik0yLjMzNTE0NjM0LDEzLjA5MDkwOTEgQzIuODA0NTY3NDEsMTcuMTY3NDk5NyA1Ljg3MzgyOTI4LDIwLjQ5MTg2NjQgOS45MTU5MzkzOSwyMS41MDIwOTYzIEM4LjE4NzYwOTE4LDE5LjAwNjk2NzMgNy4xMzc5ODU2NiwxNi4xMTk2ODYgNi44NzgwNzUyOSwxMy4wOTA5MDkxIEwyLjMzNTE0NjM0LDEzLjA5MDkwOTEgWiBNMi4zMzUxNDYzNCwxMC45MDkwOTA5IEw2Ljg3NTEwMzUsMTAuOTA5MDkwOSBDNy4xMjk4ODIzMSw3Ljg5NDcwNDk0IDguMTgwNzk3NzQsNS4wMDExODgyMSA5LjkxNTU3NzUxLDIuNDk3OTk0MTkgQzUuODczNjQ2MDksMy41MDgzMzIwNiAyLjgwNDU1MzQsNi44MzI2MjE5NyAyLjMzNTE0NjM0LDEwLjkwOTA5MDkgWiBNMjIuNjY0ODUzNywxMC45MDkwOTA5IEMyMi4xOTU0MzI2LDYuODMyNTAwMzIgMTkuMTI2MTcwNywzLjUwODEzMzY0IDE1LjA4NDA2MDYsMi40OTc5MDM3NCBDMTYuODEyMzkwOCw0Ljk5MzAzMjY2IDE3Ljg2MjAxNDMsNy44ODAzMTQwMyAxOC4xMjE5MjQ3LDEwLjkwOTA5MDkgTDIyLjY2NDg1MzcsMTAuOTA5MDkwOSBaIE0yMi42NjQ4NTM3LDEzLjA5MDkwOTEgTDE4LjEyNDg5NjUsMTMuMDkwOTA5MSBDMTcuODcwMTE3NywxNi4xMDUyOTUxIDE2LjgxOTIwMjMsMTguOTk4ODExOCAxNS4wODQ0MjI1LDIxLjUwMjAwNTggQzE5LjEyNjM1MzksMjAuNDkxNjY3OSAyMi4xOTU0NDY2LDE3LjE2NzM3OCAyMi42NjQ4NTM3LDEzLjA5MDkwOTEgWiBNOS4xNTMxNTA3OCwxMC45MDkwOTA5IEwxNS44NDM2NDYsMTAuOTA5MDkwOSBDMTUuNTU4MTkzOSw3Ljk0OTI1NDc5IDE0LjM5NzM1MTIsNS4xMjkzNTczNiAxMi40OTk5NzUxLDIuNzgyNjU2MjIgQzEwLjU5NTQ0OCw1LjEzNzc4NDkyIDkuNDMzMDI3ODIsNy45NjY1MjAzMSA5LjE1MzE1MDc4LDEwLjkwOTA5MDkgWiBNMTUuODQ2ODQ5MiwxMy4wOTA5MDkxIEw5LjE1NjM1NDAyLDEzLjA5MDkwOTEgQzkuNDQxODA2MDgsMTYuMDUwNzQ1MiAxMC42MDI2NDg4LDE4Ljg3MDY0MjYgMTIuNTAwMDI0OSwyMS4yMTczNDM4IEMxNC40MDQ1NTIsMTguODYyMjE1MSAxNS41NjY5NzIyLDE2LjAzMzQ3OTcgMTUuODQ2ODQ5MiwxMy4wOTA5MDkxIFogTTEyLjUsMjQgQzUuNTk2NDQwNjMsMjQgMCwxOC42Mjc0MTcgMCwxMiBDMCw1LjM3MjU4MyA1LjU5NjQ0MDYzLDAgMTIuNSwwIEMxOS40MDM1NTk0LDAgMjUsNS4zNzI1ODMgMjUsMTIgQzI1LDE4LjYyNzQxNyAxOS40MDM1NTk0LDI0IDEyLjUsMjQgWiIgaWQ9InBhdGgtMSI+PC9wYXRoPgogICAgPC9kZWZzPgogICAgPGcgaWQ9IkZpbmFsLURlc2lnbnMtIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iRGVza3RvcC0vLUxhbmd1YWdlLUJhbm5lci1Ecm9wLURvd24tIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDI2LjAwMDAwMCwgLTE5LjAwMDAwMCkiPgogICAgICAgICAgICA8ZyBpZD0iQWxlcnQtYmFubmVyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNC4wMDAwMDAsIDAuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iZ2xvYmUtaWNvbi0iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQzMC4wMDAwMDAsIDE5LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxtYXNrIGlkPSJtYXNrLTIiIGZpbGw9IndoaXRlIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHVzZSB4bGluazpocmVmPSIjcGF0aC0xIj48L3VzZT4KICAgICAgICAgICAgICAgICAgICA8L21hc2s+CiAgICAgICAgICAgICAgICAgICAgPHVzZSBpZD0iQ29tYmluZWQtU2hhcGUiIGZpbGw9IiNDMUM3RDAiIGZpbGwtcnVsZT0ibm9uemVybyIgeGxpbms6aHJlZj0iI3BhdGgtMSI+PC91c2U+CiAgICAgICAgICAgICAgICAgICAgPGcgaWQ9IkNPTE9SLy1ibGFjayIgbWFzaz0idXJsKCNtYXNrLTIpIiBmaWxsPSIjNkM3OThGIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMDAwMDAwLCAtMS4wMDAwMDApIiBpZD0iUmVjdGFuZ2xlIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyNy4yNzI3MjczIiBoZWlnaHQ9IjI2LjQ4Mjc1ODYiPjwvcmVjdD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+);
-	width: 25px;
-	background-repeat: no-repeat;
+	width: 20px ;
+	height: 20px ;
+	float: left;
 }
 .bt{
 	float: left;
@@ -658,31 +680,53 @@ body
 	margin-left: 240px;
 	float: left;
 }
-div.ul.li:hover {
-	background-color: grey;
 
-}
-div.a:hover{
-	text-decoration: underline;
-}
 
-<!-- iPad or Tablet -->
 
-@media only screen and (min-width: 375px)
-{
+<!-- Mobile -->
+
+@media screen and (min-width: 375px){
 	.Image
 	{
 		width: 161px;
 		height: 20px;
-		padding-left: 30px;
-		padding-top: 16px;
-		padding-right: 0px;
 	}
-	.ca{
+	.LeftFloat
+	{
 		display: none;
 	}
-	.List{
+	.Background
+	{
+		width: 100%;
+		height: 85px;
+		background-image: url(https://wac-cdn.atlassian.com/dam/jcr:4ad14d09-926b-431d-92c4-339a548b53b3/Summit2019-WACTakeover-MobileHero.png?cdnVersion=ld);
+		background-repeat: no-repeat;
+		background-color: #172B4D;
+		padding-top: 160px;
+		object-fit: cover;
+	}
+}
+
+<!-- iPad or Tablet-->
+
+@media screen and (min-width: 768px){
+	.Image
+	{
+		width: 161px;
+		height: 20px;
+	}
+	.LeftFloat
+	{
 		display: none;
 	}
-	
+	.Background
+	{
+		width: 100%;
+		height: 85px;
+		background-image: url(https://wac-cdn.atlassian.com/dam/jcr:4ad14d09-926b-431d-92c4-339a548b53b3/Summit2019-WACTakeover-MobileHero.png?cdnVersion=ld);
+		background-repeat: no-repeat;
+		background-color: #172B4D;
+		padding-top: 160px;
+		object-fit: cover;
+	}
 }
