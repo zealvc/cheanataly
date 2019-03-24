@@ -232,6 +232,91 @@ body{
 	margin-top: 0px;
 	margin-left: 5px;
 }
+.Card-Block{
+	border: 0.5px solid #212529;
+	margin: 21px 30px;
+}
+.First-Card-Image{
+	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/rewards/rewards-aw/CHP-Secondary-Hero-Tout-Desktop@2x_sized.jpg);
+	width: 313.2px;
+	height: 155px;
+	background-size: cover;
+	background-position-x: 50%;
+	background-position-y: 50%;
+}
+.Card-Para-Block{
+	padding: 20px 20px;
+	width: 273.2px;
+	height: 187.8px;
+}
+.Card-Title{
+	font-size: 28px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: #451400;
+	margin: 0px 0px 16px 0px;
+}
+.Card-Des{
+	width: 273.2px;
+	height: 76.8px;
+	color: #451400;
+	font-family: 'Nunito', sans-serif;
+	font-size: 13px;
+}
+.Card-Link{
+	text-decoration: none;
+}
+.Card-Button{
+	text-decoration: none;
+	width: 241.2px;
+	height: 20px;
+	background-color: #451400;
+	border-style: none;
+	padding: 8px 16px;
+}
+.Card-Order{
+	font-size: 16px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: white;
+	text-align: center;
+	margin: 0px;
+}
+.Second-Card-Image{
+	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/rewards/rewards-aw/Home-Page-Secondary-Tout-Mobile@2x.jpg);
+	width: 313.2px;
+	height: 155px;
+	background-size: cover;
+	background-position-x: 50%;
+	background-position-y: 50%;
+}
+.First-Card-Block-Desktop{
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+}
+.Second-Card-Block-Desktop{
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+}
+.GUA-Img{
+	width: 288.563px;
+	height: 204px;
+	margin-left: 40px;
+}
+.GUA-Para{
+	color: #451400;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.GUA-Img-Let{
+	width: 202px;
+	height: 64px;
+	padding-left: 100px;
+	margin-top: 0px;
+}
 /* iPad or Tablet*/
 @media only screen and (min-width: 768px)
 {
@@ -466,6 +551,70 @@ body{
 		margin-top: 0px;
 		margin-left: 5px;
 	}
+	.Card-Block{
+	border: 0.5px solid #212529;
+	margin: 21px 0px 21px 55px;
+	width: 298px;
+	float: left;
+	}
+	.First-Card-Image{
+		background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/rewards/rewards-aw/CHP-Secondary-Hero-Tout-Desktop@2x_sized.jpg);
+		width: 298px;
+		height: 155px;
+		background-size: cover;
+		background-position-x: 50%;
+		background-position-y: 50%;
+	}
+	.Card-Para-Block{
+		padding: 20px 20px;
+		width: 258px;
+		height: 187.8px;
+	}
+	.Card-Title{
+		font-size: 28px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;
+		margin: 0px 0px 16px 0px;
+	}
+	.Card-Des{
+		width: 273.2px;
+		height: 76.8px;
+		color: #451400;
+		font-family: 'Nunito', sans-serif;
+		font-size: 13px;
+	}
+	.Card-Link{
+		text-decoration: none;
+	}
+	.Card-Button{
+		text-decoration: none;
+		width: 226px;
+		height: 20px;
+		background-color: #451400;
+		border-style: none;
+		padding: 8px 16px;
+	}
+	.Card-Order{
+		font-size: 16px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: white;
+		text-align: center;
+		margin: 0px;
+	}
+	.Second-Card-Image{
+		background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/rewards/rewards-aw/Home-Page-Secondary-Tout-Mobile@2x.jpg);
+		width: 298px;
+		height: 155px;
+		background-size: cover;
+		background-position-x: 50%;
+		background-position-y: 50%;
+	}
+	.First-Card-Block-Desktop{
+		visibility: hidden;
+	}
+	.Second-Card-Block-Desktop{
+		visibility: hidden;
+	}
 }
 
 @media only screen and (min-width: 1024px)
@@ -665,6 +814,82 @@ body{
 		margin-top: 0px;
 		margin-left: 0px;
 	}
+	.Card-Block{
+		display: none;
+	}
+	.First-Card-Block-Desktop{
+		visibility: visible;
+		border: 0.5px solid #212529;
+		width: 448px;
+		height: 415.4px;
+		float: left;
+		margin: 70px 0px 10px 43px;
+	}
+	.Second-Card-Block-Desktop{
+		visibility: visible;
+		border: 0.5px solid #212529;
+		width: 448px;
+		height: 415.4px;
+		float: left;
+		margin: 70px 0px 10px 43px;
+	}
+	.First-Card-Image{
+		background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/rewards/rewards-aw/CHP-Secondary-Hero-Tout-Desktop@2x_sized.jpg);
+		width: 224px;
+		height: 415.4px;
+		background-size: cover;
+		background-position-x: 50%;
+		background-position-y: 50%;
+		float: left;
+	}
+	.Card-Para-Block{
+		padding: 20px 20px;
+		width: 184px;
+		height: 375.4px;
+		float: left;
+	}
+	.Card-Title{
+		font-size: 40px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;
+		margin: 0px 0px 16px 0px;
+	}
+	.Card-Des{
+		width: 180px;
+		height: 173.6px;
+		color: #451400;
+		font-family: 'Nunito', sans-serif;
+		font-size: 16px;
+	}
+	.Card-Link{
+		text-decoration: none;
+	}
+	.Card-Button{
+		text-decoration: none;
+		width: 152px;
+		height: 20px;
+		background-color: #451400;
+		border-style: none;
+		padding: 8px 16px;
+		margin-top: 37.6px;
+	}
+	.Card-Order{
+		font-size: 16px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: white;
+		text-align: center;
+		margin: 0px;
+	}
+	.Second-Card-Image{
+		background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/rewards/rewards-aw/Home-Page-Secondary-Tout-Desktop@2x.jpg);
+		width: 224px;
+		height: 415.4px;
+		background-size: cover;
+		background-position-x: 50%;
+		background-position-y: 50%;
+		float: left;
+	}
+
 }
 
 @media only screen and (min-width: 1295px)
@@ -888,5 +1113,80 @@ body{
 	.What-I-Eat-Ques-Block{
 	float: left;
 	margin-top: 500px;
+	}
+		.Card-Block{
+		display: none;
+	}
+	.First-Card-Block-Desktop{
+		visibility: visible;
+		border: 0.5px solid #212529;
+		width: 553px;
+		height: 386px;
+		float: left;
+		margin: 70px 0px 10px 189px;
+	}
+	.Second-Card-Block-Desktop{
+		visibility: visible;
+		border: 0.5px solid #212529;
+		width: 553px;
+		height: 386px;
+		float: left;
+		margin: 70px 0px 10px 30px;
+	}
+	.First-Card-Image{
+		background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/rewards/rewards-aw/CHP-Secondary-Hero-Tout-Desktop@2x_sized.jpg);
+		width: 276.5px;
+		height: 386px;
+		background-size: cover;
+		background-position-x: 50%;
+		background-position-y: 50%;
+		float: left;
+	}
+	.Card-Para-Block{
+		padding: 20px 20px;
+		width: 236.5px;
+		height: 346px;
+		float: left;
+	}
+	.Card-Title{
+		font-size: 40px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;
+		margin: 0px 0px 16px 0px;
+	}
+	.Card-Des{
+		width: 232.5px;
+		height: 124px;
+		color: #451400;
+		font-family: 'Nunito', sans-serif;
+		font-size: 16px;
+	}
+	.Card-Link{
+		text-decoration: none;
+	}
+	.Card-Button{
+		text-decoration: none;
+		width: 204.5px;
+		height: 20px;
+		background-color: #451400;
+		border-style: none;
+		padding: 8px 16px;
+		margin-top: 37.6px;
+	}
+	.Card-Order{
+		font-size: 16px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: white;
+		text-align: center;
+		margin: 0px;
+	}
+	.Second-Card-Image{
+		background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/rewards/rewards-aw/Home-Page-Secondary-Tout-Desktop@2x.jpg);
+		width: 276.5px;
+		height: 386px;
+		background-size: cover;
+		background-position-x: 50%;
+		background-position-y: 50%;
+		float: left;
 	}
 }
