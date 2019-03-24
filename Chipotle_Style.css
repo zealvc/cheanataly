@@ -1,0 +1,892 @@
+body{
+	margin: 0px 0px;
+}
+.Get-block{
+	width: 100%;
+	height: 60px;
+	background-color: #451400;
+}
+.Get-h3{
+	color: white;
+	font-size: 18px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	margin-top: 0px;
+	padding-top: 22px;
+	padding-left: 85px;
+	float: left;
+}
+.Get-button{
+	width: 29px;
+	height: 31px;
+	border-style: none;
+	border-radius: 50%;
+	background-color: #632d17;
+	border-color: #632d17;
+	margin-left: 15px;
+	margin-top: 15px;
+	float: left;
+}
+.Drop-Down{
+	width: 14px;
+	height: 14px;
+	margin-top: 5px;
+}
+.Nav-Bar{
+	width: 100%;
+	height: 58px;
+	border-bottom: 0.85px solid #d4cbc7;
+}
+.Nav-Bar-Logo-Block{
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.Nav-Bar-HamIcon{
+	width: 24px;
+	height: 16px;
+	margin-top: 16px;
+	float: left;
+}
+.Nav-Bar-Logo-Link{
+	text-decoration: none;
+	float: left;
+}
+.Nav-Bar-Logo{
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+.Nav-List-Block{
+	visibility: hidden;
+	float: left;
+	margin-left: 0px;
+	width: 0px;
+	margin-top: 10px;
+}
+.Nav-List{
+	list-style-type: none;
+}
+.Nav-List-Item{
+	float: left;
+}
+.Nav-List-Link-First{
+	text-decoration: none;
+	font-size: 24px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: #451400;	
+}
+.Nav-List-Link{
+	text-decoration: none;
+	font-size: 24px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: #451400;
+	margin-left: 40px;
+}
+.Nav-Find-Button{
+	width: 176px;
+	height: 36px;
+	float: left;
+	margin-top: 6px;
+	margin-left: 95px;
+	background-color: #451400;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.Nav-Find-Link{
+	text-decoration: none;
+	background-color: #451400;
+}
+.Nav-Find-Pepper{
+	width: 26px;
+	height: 26px;
+	float: left;
+	margin-top: 4px;
+	margin-left: 6px;
+}
+.Nav-Find-Line{
+	width: 9px;
+	height: 20px;
+	margin-top: 9px;
+	margin-left: 0px;
+	float: left;
+}
+.Nav-Find-Para{
+	font-size: 13px;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	float: left;
+	margin-left: 5px;
+	margin-top: 11px;
+}
+.Content-BG{
+	width: 100%;
+	height: 400px;
+	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/rewards/rewards-aw/Home-Page-Hero-Mobile-White@2x-latest.jpg);
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: cover;
+}
+.Content-First-Box{
+	padding: 21px 19px;
+	width: 130.6px;
+	height: 19px;
+	background-color: #ad2118;
+	margin-top: 288px;
+	margin-left: 15px;
+	float: left;
+	position: absolute;
+}
+.Content-First-Para{
+	font-size: 16px;
+	color: white;
+	margin-top: 0px;
+	font-family: 'Nunito', sans-serif;
+	margin-left: 15px;
+}
+.Content-Second-Para{
+	visibility: hidden;
+	font-size: 24px;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+}
+.Content-Second-Block-Link{
+	text-decoration: none;
+	float: left;
+}
+.Content-Second-Block{
+	width: 144.6px;
+	height: 44px;
+	margin-left: 90px;
+	background-color: #88120A;
+	margin-top: 288px;
+	padding-left: 12px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 16px;
+}
+.Content-Third-Para{
+	font-size: 20px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	float: left;
+	color: white;
+	margin-top: 11px;
+	margin-left: 17px;
+}
+.Content-Second-Arrow{
+	width: 14px;
+	height: 15px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 17px;
+}
+.What-I-Eat-Block{
+	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/banners/background-images/home-page/what-should-i-eat-it/background-image-what-should-i-eat@3x_cropped.png);
+	width: 345.2px;
+	height: 74.8px;
+	padding: 36px 15px;
+	border-bottom: 1px solid #d4cbc7;
+	background-repeat: repeat;
+}
+.What-I-Eat-Para{
+	font-size: 24px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: #451400;
+	margin: 8px 0px;
+}
+.What-I-Eat-Select-Block{
+	float: left;
+	padding: 2px 1px;
+	width: 303.775px;
+	height: 22.4px;
+	margin-left: 0px;
+}
+.What-I-Eat-Select{
+	border-style: none;
+	background: url(https://chipotle.com/etc.clientlibs/chipotle/clientlibs/chipotle-core/resources/images/closed.png);
+	background-size: 20px 20px;
+	background-position-x: 96%;
+	background-position-y: 50%;
+	float: left;
+	border-bottom: 1px solid #451400;
+	border-top: transparent;
+	border-right: transparent;
+	border-left: transparent;
+	border-top: transparent;
+}
+.What-I-Eat-Option{
+	color: #b68207;
+	font-size: 24px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+.What-I-Eat-Ques-Block{
+	float: left;
+}
+.What-I-Eat-Ques{
+	font-size: 24px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: #451400;
+	float: left;
+	margin-top: 0px;
+	margin-left: 5px;
+}
+/* iPad or Tablet*/
+@media only screen and (min-width: 768px)
+{
+	.Get-block{
+	width: 100%;
+	height: 80px;
+	background-color: #451400;
+	}
+	.Get-h3{
+	color: white;
+	font-size: 30px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	margin-top: 0px;
+	padding-top: 25px;
+	padding-left: 220px;
+	float: left;
+	}
+	.Get-button{
+	width: 31px;
+	height: 33px;
+	border-style: none;
+	border-radius: 50%;
+	background-color: #632d17;
+	border-color: #632d17;
+	margin-left: 15px;
+	margin-top: 25px;
+	float: left;
+	}
+	.Drop-Down{
+	width: 12px;
+	height: 12px;
+	margin-top: 4px;
+	}
+	.Nav-Bar{
+	height: 69px;
+	border-bottom: 0.85px solid #d4cbc7;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	}
+	.Nav-Bar-Logo-Block{
+		width: 300px;
+		padding: 0px 8px;
+	}
+	.Nav-Bar-HamIcon{
+	width: 24px;
+	height: 16px;
+	margin-top: 15px;
+	float: left;
+	}
+	.Nav-Bar-Logo-Link{
+	text-decoration: none;
+	float: left;
+	}
+	.Nav-Bar-Logo{
+		width: 50px;
+		height: 50px;
+		margin-left: 10px;
+		margin-bottom: 2px;
+	}
+	.Nav-List-Block{
+		visibility: hidden;
+		float: left;
+		margin-left: 0px;
+		width: 0px;
+		margin-top: 10px;
+	}
+	.Nav-List{
+		list-style-type: none;
+	}
+	.Nav-List-Item{
+		float: left;
+	}
+	.Nav-List-Link-First{
+		text-decoration: none;
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;	
+	}
+	.Nav-List-Link{
+		text-decoration: none;
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;
+		margin-left: 40px;
+	}
+	.Nav-Find-Button{
+		width: 176px;
+		height: 36px;
+		float: left;
+		margin-top: 6px;
+		margin-left: 492px;
+		background-color: #451400;
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px;
+	}
+	.Nav-Find-Link{
+		text-decoration: none;
+		background-color: #451400;
+	}
+	.Nav-Find-Pepper{
+		width: 26px;
+		height: 26px;
+		float: left;
+		margin-top: 4px;
+		margin-left: 8px;
+	}
+	.Nav-Find-Line{
+		width: 9px;
+		height: 20px;
+		margin-top: 9px;
+		margin-left: 0px;
+		float: left;
+	}
+	.Nav-Find-Para{
+		font-size: 13px;
+		font-family: 'Nunito', sans-serif;
+		color: white;
+		float: left;
+		margin-left: 4px;
+		margin-top: 11px;
+	}
+	.Content-BG{
+	width: 100%;
+	height: 400px;
+	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/rewards/rewards-aw/Home-Page-Hero-Mobile-White@2x-latest.jpg);
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: cover;
+	position: absolute;
+
+	}
+	.Content-First-Box{
+		padding: 21px 19px;
+		width: 98.387px;
+		height: 20px;
+		background-color: #ad2118;
+		margin-top: 288px;
+		margin-left: 240px;
+		float: left;
+	}
+	.Content-First-Para{
+		font-size: 16px;
+		color: white;
+		margin-top: 0px;
+		font-family: 'Nunito', sans-serif;
+		margin-left: 0px;
+	}
+	.Content-Second-Para{
+	visibility: hidden;
+	font-size: 24px;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	}
+	.Content-Second-Block-Link{
+		text-decoration: none;
+		float: left;
+	}
+	.Content-Second-Block{
+		width: 128.6px;
+		height: 45px;
+		margin-left: 376px;
+		background-color: #88120A;
+		margin-top: 288px;
+		padding-left: 8px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-right: 16px;
+	}
+	.Content-Third-Para{
+		font-size: 20px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		float: left;
+		color: white;
+		margin-top: 11px;
+		margin-left: 17px;
+	}
+	.Content-Second-Arrow{
+		width: 14px;
+		height: 15px;
+		float: left;
+		margin-left: 5px;
+		margin-top: 17px;
+	}
+	.What-I-Eat-Block{
+	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/banners/background-images/home-page/what-should-i-eat-it/background-image-what-should-i-eat@3x_cropped.png);
+	width: 738px;
+	height: 74.8px;
+	padding: 36px 15px;
+	border-bottom: 1px solid #d4cbc7;
+	background-repeat: repeat;
+	margin-top: 400px;
+	}
+	.What-I-Eat-Para{
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;
+		margin: 8px 0px;
+	}
+	.What-I-Eat-Select-Block{
+	float: left;
+	padding: 2px 1px;
+	width: 633.6px;
+	height: 22.4px;
+	margin-left: 0px;
+	}
+	.What-I-Eat-Select{
+		border-style: none;
+		background: url(https://chipotle.com/etc.clientlibs/chipotle/clientlibs/chipotle-core/resources/images/closed.png);
+		background-size: 20px 20px;
+		background-position-x: 96%;
+		background-position-y: 50%;
+		float: left;
+		border-bottom: 1px solid #451400;
+		border-top: transparent;
+		border-right: transparent;
+		border-left: transparent;
+		border-top: transparent;
+	}
+	.What-I-Eat-Option{
+		color: #b68207;
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+	}
+	.What-I-Eat-Ques{
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;
+		float: left;
+		margin-top: 0px;
+		margin-left: 5px;
+	}
+}
+
+@media only screen and (min-width: 1024px)
+{
+	.Get-h3{
+	color: white;
+	font-size: 30px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	margin-top: 0px;
+	padding-top: 25px;
+	padding-left: 350px;
+	float: left;
+	}
+	.Nav-Bar{
+	height: 100px;
+	border-bottom: 0.85px solid #d4cbc7;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	}
+	.Nav-Bar-HamIcon{
+		display: none;
+	}
+	.Nav-Bar-Logo{
+		width: 80px;
+		height: 80px;
+		margin-left: 20px;
+	}
+	.Nav-List-Block{
+		visibility: visible;
+		float: left;
+		margin-left: 0px;
+		width: 680px;
+		margin-top: 10px;
+	}
+	.Nav-List{
+		list-style-type: none;
+	}
+	.Nav-List-Item{
+		float: left;
+	}
+	.Nav-List-Link-First{
+		text-decoration: none;
+		font-size: 24px;
+		color: #451400;	
+	}
+	.Nav-List-Link{
+		text-decoration: none;
+		font-size: 24px;
+		color: #451400;
+		margin-left: 40px;
+	}
+	.Nav-Find-Button{
+		width: 200px;
+		height: 40px;
+		float: left;
+		margin-top: 18px;
+		margin-left: 8px;
+		background-color: #451400;
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px;
+	}
+	.Nav-Find-Pepper{
+		width: 26px;
+		height: 26px;
+		float: left;
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+	.Nav-Find-Line{
+		width: 9px;
+		height: 22px;
+		margin-top: 9px;
+		margin-left: 0px;
+		float: left;
+	}
+	.Nav-Find-Para{
+		font-size: 17px;
+		font-family: 'Nunito', sans-serif;
+		color: white;
+		float: left;
+		margin-left: 5px;
+		margin-top: 9px;
+	}
+	.Content-BG{
+	width: 100%;
+	height: 640px;
+	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/rewards/rewards-aw/Home-Page-Hero-Desktop-White%20Rewardsv2@2x.jpg);
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: cover;
+	position: absolute;
+
+	}
+	.Content-First-Box{
+		padding: 8px 32px;
+		width: 331.513px;
+		height: 42px;
+		background-color: #ad2118;
+		margin-top: 500px;
+		margin-left: 200px;
+		float: left;
+	}
+	.Content-First-Para{
+		display: none;
+		font-size: 16px;
+		color: white;
+		margin-top: 0px;
+		font-family: 'Nunito', sans-serif;
+		margin-left: 15px;
+	}
+	.Content-Second-Para{
+	visibility: visible;
+	font-size: 24px;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	margin-top: 5px;
+	}
+	.Content-Second-Block-Link{
+		text-decoration: none;
+		float: left;
+	}
+	.Content-Second-Block{
+		width: 144.050px;
+		height: 42px;
+		margin-left: 594px;
+		background-color: #88120A;
+		margin-top: 500px;
+		padding-left: 48px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-right: 40px;
+	}
+	.Content-Third-Para{
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		float: left;
+		color: white;
+		margin-top: 9px;
+		margin-left: 0px;
+	}
+	.Content-Second-Arrow{
+		width: 14px;
+		height: 15px;
+		float: left;
+		margin-left: 10px;
+		margin-top: 17px;
+	}
+	.What-I-Eat-Block{
+	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/banners/background-images/home-page/what-should-i-eat-it/background-image-what-should-i-eat@3x_cropped.png);
+	width: 994px;
+	height: 109.6px;
+	padding: 80px 15px 83px 15px;
+	border-bottom: 1px solid #d4cbc7;
+	background-repeat: repeat;
+	margin-top: 640px;
+	}
+	.What-I-Eat-Para{
+		font-size: 48px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;
+		margin: 0px 15px;
+		text-align: center;
+	}
+	.What-I-Eat-Select-Block{
+	float: left;
+	padding: 10px 0px 5px 13px;
+	width: 365.6px;
+	height: 22.4px;
+	margin-left: 300px;
+	}
+	.What-I-Eat-Select{
+		border-style: none;
+		background: url(https://chipotle.com/etc.clientlibs/chipotle/clientlibs/chipotle-core/resources/images/closed.png);
+		background-size: 20px 20px;
+		background-position-x: 96%;
+		background-position-y: 50%;
+		float: left;
+		border-bottom: 4px solid #451400;
+		border-top: transparent;
+		border-right: transparent;
+		border-left: transparent;
+		border-top: transparent;
+	}
+	.What-I-Eat-Option{
+		color: #b68207;
+		font-size: 48px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+	}
+	.What-I-Eat-Ques{
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;
+		float: left;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (min-width: 1295px)
+{
+	.Get-h3{
+	color: white;
+	font-size: 30px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	margin-top: 0px;
+	padding-top: 25px;
+	padding-left: 570px;
+	float: left;
+	}
+	.Get-button{
+	width: 31px;
+	height: 33px;
+	border-style: none;
+	border-radius: 50%;
+	background-color: #632d17;
+	border-color: #632d17;
+	margin-left: 15px;
+	margin-top: 25px;
+	float: left;
+	}
+	.Nav-Bar{
+	height: 100px;
+	border-bottom: 0.85px solid #d4cbc7;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	}
+	.Nav-Bar-HamIcon{
+		display: none;
+	}
+	.Nav-Bar-Logo{
+		width: 80px;
+		height: 80px;
+		margin-left: 20px;
+		margin-top: 0px;
+	}
+	.Drop-Down{
+	width: 15px;
+	height: 15px;
+	margin-top: 6px;
+	}
+	.Nav-List-Block{
+		visibility: visible;
+		float: left;
+		margin-left: 240px;
+		width: 680px;
+		margin-top: 10px;
+	}
+	.Nav-List{
+		list-style-type: none;
+	}
+	.Nav-List-Item{
+		float: left;
+	}
+	.Nav-List-Link-First{
+		text-decoration: none;
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;	
+	}
+	.Nav-List-Link{
+		text-decoration: none;
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;
+		margin-left: 40px;
+	}
+	.Nav-Find-Button{
+		width: 200px;
+		height: 40px;
+		float: left;
+		margin-top: 18px;
+		margin-left: 275px;
+		background-color: #451400;
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px;
+	}
+	.Nav-Find-Pepper{
+		width: 26px;
+		height: 26px;
+		float: left;
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+	.Nav-Find-Line{
+		width: 9px;
+		height: 24px;
+		margin-top: 9px;
+		margin-left: 0px;
+		float: left;
+	}
+	.Nav-Find-Para{
+		font-size: 17px;
+		font-family: 'Nunito', sans-serif;
+		color: white;
+		float: left;
+		margin-left: 3px;
+		margin-top: 10px;
+	}
+	.Content-BG{
+	width: 100%;
+	height: 679px;
+	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/rewards/rewards-aw/Home-Page-Hero-Desktop-White%20Rewardsv2@2x.jpg);
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: cover;
+	position: absolute;
+
+	}
+	.Content-First-Box{
+		padding: 8px 32px;
+		width: 331.513px;
+		height: 42px;
+		background-color: #ad2118;
+		margin-top: 512px;
+		margin-left: 448px;
+		float: left;
+	}
+	.Content-First-Para{
+		display: none;
+		font-size: 16px;
+		color: white;
+		margin-top: 0px;
+		font-family: 'Nunito', sans-serif;
+		margin-left: 15px;
+	}
+	.Content-Second-Para{
+	visibility: visible;
+	font-size: 24px;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	margin-top: 5px;
+	}
+	.Content-Second-Block-Link{
+		text-decoration: none;
+		float: left;
+	}
+	.Content-Second-Block{
+		width: 144.050px;
+		height: 42px;
+		margin-left: 843px;
+		background-color: #88120A;
+		margin-top: 512px;
+		padding-left: 48px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-right: 40px;
+	}
+	.Content-Third-Para{
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		float: left;
+		color: white;
+		margin-top: 9px;
+		margin-left: 0px;
+	}
+	.Content-Second-Arrow{
+		width: 14px;
+		height: 15px;
+		float: left;
+		margin-left: 10px;
+		margin-top: 17px;
+	}
+	.What-I-Eat-Block{
+	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/banners/background-images/home-page/what-should-i-eat-it/background-image-what-should-i-eat@3x_cropped.png);
+	width: 1489px;
+	height: 58.6px;
+	padding: 80px 15px 83px 15px;
+	border-bottom: 1px solid #d4cbc7;
+	background-repeat: repeat;
+	margin-top: 680px;
+	}
+	.What-I-Eat-Para{
+		font-size: 48px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;
+		float: left;
+		margin-left: 200px;
+		margin-top: 8px;
+	}
+	.What-I-Eat-Select-Block{
+	float: left;
+	padding: 2px 1px;
+	width: 533.6px;
+	height: 22.4px;
+	margin-left: 15px;
+	margin-top: 25px;
+	}
+	.What-I-Eat-Select{
+		border-style: none;
+		background: url(https://chipotle.com/etc.clientlibs/chipotle/clientlibs/chipotle-core/resources/images/closed.png);
+		background-size: 20px 20px;
+		background-position-x: 96%;
+		background-position-y: 50%;
+		float: left;
+		border-bottom: 1px solid #451400;
+		border-top: transparent;
+		border-right: transparent;
+		border-left: transparent;
+		border-top: transparent;
+	}
+	.What-I-Eat-Option{
+		color: #b68207;
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+	}
+	.What-I-Eat-Ques{
+		font-size: 48px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;
+		float: left;
+		margin-top: 8px;
+		margin-left: 5px;
+	}
+	.What-I-Eat-Ques-Block{
+	float: left;
+	margin-top: 500px;
+	}
+}
