@@ -302,6 +302,7 @@ body{
 	width: 288.563px;
 	height: 204px;
 	margin-left: 40px;
+	margin-top: 10px;
 }
 .GUA-Para{
 	color: #451400;
@@ -316,6 +317,115 @@ body{
 	height: 64px;
 	padding-left: 100px;
 	margin-top: 0px;
+}
+.GUA-Des{
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: #451400;
+}
+.GUA-Button{
+	border: 3px solid #451400;
+	background-color: white;
+	padding: 11.2px 30px;
+	width: 275.2px;
+	height: 20px;
+	margin: 30px 17px;
+}
+.GUA-Button-Text{
+	font-size: 18px;
+	color: #451400;
+	margin: 0px 0px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	text-align: center;
+}
+.CARDTEXT-Block{
+	border: 0.5px solid #212529;
+	margin: 21px 30px;
+}
+
+.CARDTEXT-First-Image{
+	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/life-styles/group-10@2x.png);
+	width: 313.2px;
+	height: 188px;
+	background-size: cover;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	opacity: 0.7;
+}
+.CARDTEXT-Title{
+	font-size: 36px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: white;
+	margin: 0px 0px 16px 0px;
+	text-align: center;
+	padding-top: 65px;
+}
+.CARDTEXT-Para-Block{
+	padding: 20px 20px;
+	width: 273.2px;
+	height: 145px;
+}
+.CARDTEXT-Button{
+	text-decoration: none;
+	width: 241.2px;
+	height: 20px;
+	background-color: #451400;
+	border-style: none;
+	padding: 8px 16px;
+	margin-top: 0px;
+}
+.Card-Des{
+	width: 273.2px;
+	height: 80px;
+	color: #451400;
+	font-family: 'Nunito', sans-serif;
+	font-size: 13px;
+}
+.CARDTEXT-Second-Image{
+	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/life-styles/group-12@2x.png);
+	width: 313.2px;
+	height: 188px;
+	background-size: cover;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	opacity: 0.7;
+}
+.FIND-Block{
+	width: 375.2px;
+	height: 59.6px;
+	padding: 16px 0px;
+	background-color: #786259;
+}
+.FIND-Text{
+	font-family: 'Nunito', sans-serif;
+	font-size: 13px;
+	color: white;
+	width: 345.2px;
+	height: 17.6px;
+	margin: 0px 0px;	
+}
+.FIND-Input{
+	width: 315.2px;
+	height: 21px;
+	padding: 1px 30px 5px 0px;
+	border-bottom: 1px solid white;
+}
+.FOOT-Block{
+	background-color: #1b0800;
+	width: 100%;
+	height: 700.8px;
+	padding: 16px 0px;
+}
+.FOOT-Title{
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: white;
+	padding: 20px 15px;
+}
+.FOOT-Title-Block{
+	margin-top: 15px;
 }
 /* iPad or Tablet*/
 @media only screen and (min-width: 768px)
@@ -615,6 +725,107 @@ body{
 	.Second-Card-Block-Desktop{
 		visibility: hidden;
 	}
+	.GUA-Img{
+	width: 599.763px;
+	height: 424px;
+	margin-left: 85px;
+	margin-top: 10px;
+	}
+	.GUA-Para{
+		color: #451400;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		font-size: 63.0769px;
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.GUA-Img-Let{
+		width: 202px;
+		height: 64px;
+		padding-left: 285px;
+		margin-top: 0px;
+	}
+	.GUA-Des{
+		font-family: 'Nunito', sans-serif;
+		font-size: 16px;
+		text-align: center;
+		color: #451400;
+		margin: 25px 30px 10px 35px;
+		width: 708px;
+	}
+	.GUA-Button{
+		border: 3px solid #451400;
+		background-color: white;
+		padding: 11.2px 30px;
+		width: 620px;
+		height: 20px;
+		margin: 40px 45px;
+	}
+	.GUA-Button-Text{
+		font-size: 18px;
+		color: #451400;
+		margin: 0px 0px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		text-align: center;
+	}
+	.CARDTEXT-Block{
+	border: 0.5px solid #212529;
+	margin: 21px 30px;
+	}
+
+	.CARDTEXT-First-Image{
+		background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/life-styles/group-10@2x.png);
+		width: 298px;
+		height: 188px;
+		background-size: cover;
+		background-position-x: 50%;
+		background-position-y: 50%;
+		opacity: 0.7;
+	}
+	.CARDTEXT-Title{
+		font-size: 36px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: white;
+		margin: 0px 0px 16px 0px;
+		text-align: center;
+		padding-top: 65px;
+	}
+	.CARDTEXT-Para-Block{
+		padding: 20px 20px;
+		width: 258px;
+		height: 156px;
+	}
+	.CARDTEXT-Button{
+		text-decoration: none;
+		width: 226px;
+		height: 20px;
+		background-color: #451400;
+		border-style: none;
+		padding: 8px 16px;
+		margin-top: 0px;
+	}
+	.Card-Des{
+		width: 258px;
+		height: 90px;
+		color: #451400;
+		font-family: 'Nunito', sans-serif;
+		font-size: 13px;
+	}
+	.CARDTEXT-Second-Image{
+		background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/life-styles/group-12@2x.png);
+		width: 298px;
+		height: 188px;
+		background-size: cover;
+		background-position-x: 50%;
+		background-position-y: 50%;
+		opacity: 0.7;
+	}
+	.CARDTEXT-Block{
+	border: 0.5px solid #212529;
+	margin: 21px 0px 21px 56px;
+	width: 298px;
+	float: left;
+	}
 }
 
 @media only screen and (min-width: 1024px)
@@ -854,7 +1065,7 @@ body{
 		color: #451400;
 		margin: 0px 0px 16px 0px;
 	}
-	.Card-Des{
+	.Card-Des-Vertical{
 		width: 180px;
 		height: 173.6px;
 		color: #451400;
@@ -888,6 +1099,105 @@ body{
 		background-position-x: 50%;
 		background-position-y: 50%;
 		float: left;
+	}
+	.GUA-Img{
+	width: 599.763px;
+	height: 424px;
+	margin-left: 205px;
+	margin-top: 100px;
+	}
+	.GUA-Para{
+		color: #451400;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		font-size: 90px;
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.GUA-Img-Let{
+		width: 202px;
+		height: 64px;
+		padding-left: 395px;
+		margin-top: 0px;
+	}
+	.GUA-Des{
+		font-family: 'Nunito', sans-serif;
+		font-size: 16px;
+		text-align: center;
+		color: #451400;
+		margin: 25px 30px 10px 35px;
+		width: 959px;
+	}
+	.GUA-Button{
+		border: 3px solid #451400;
+		background-color: white;
+		padding: 12px;
+		width: 260px;
+		height: 20px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		margin-left: 370px;
+		margin-right: 0px;
+	}
+	.GUA-Button-Text{
+		font-size: 18px;
+		color: #451400;
+		margin: 0px 0px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		text-align: center;
+	}
+	.CARDTEXT-First-Image{
+		background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/life-styles/group-10@2x.png);
+		width: 448px;
+		height: 188px;
+		background-size: cover;
+		background-position-x: 50%;
+		background-position-y: 50%;
+		opacity: 0.7;
+	}
+	.CARDTEXT-Title{
+		font-size: 36px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: white;
+		margin: 0px 0px 16px 0px;
+		text-align: center;
+		padding-top: 65px;
+	}
+	.CARDTEXT-Para-Block{
+		padding: 20px 20px;
+		width: 408px;
+		height: 189px;
+	}
+	.CARDTEXT-Button{
+		text-decoration: none;
+		width: 338px;
+		height: 20px;
+		background-color: #451400;
+		border-style: none;
+		padding: 8px 16px;
+		margin: 18.6px 19px 0px 19px;
+	}
+	.Card-Des{
+		width: 404px;
+		height: 118.4px;
+		color: #451400;
+		font-family: 'Nunito', sans-serif;
+		font-size: 16px;
+	}
+	.CARDTEXT-Second-Image{
+		background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/life-styles/group-12@2x.png);
+		width: 448px;
+		height: 188px;
+		background-size: cover;
+		background-position-x: 50%;
+		background-position-y: 50%;
+		opacity: 0.7;
+	}
+	.CARDTEXT-Block{
+	border: 0.5px solid #212529;
+	margin: 61px 0px 21px 40px;
+	width: 448px;
+	float: left;
 	}
 
 }
@@ -1154,7 +1464,7 @@ body{
 		color: #451400;
 		margin: 0px 0px 16px 0px;
 	}
-	.Card-Des{
+	.Card-Des-Vertical{
 		width: 232.5px;
 		height: 124px;
 		color: #451400;
@@ -1188,5 +1498,107 @@ body{
 		background-position-x: 50%;
 		background-position-y: 50%;
 		float: left;
+	}
+	.GUA-Img{
+	width: 599.763px;
+	height: 424px;
+	margin-left: 455px;
+	margin-top: 100px;
+	}
+	.GUA-Para{
+		color: #451400;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		font-size: 90px;
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.GUA-Img-Let{
+		width: 202px;
+		height: 64px;
+		padding-left: 675px;
+		margin-top: 0px;
+	}
+	.GUA-Des{
+		font-family: 'Nunito', sans-serif;
+		font-size: 16px;
+		text-align: center;
+		color: #451400;
+		margin: 25px 189px 10px 189px;
+		width: 1140px;
+	}
+	.GUA-Button{
+		border: 3px solid #451400;
+		background-color: white;
+		padding: 12px;
+		width: 260px;
+		height: 20px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		margin-left: 615px;
+		margin-right: 0px;
+	}
+	.GUA-Button-Text{
+		font-size: 18px;
+		color: #451400;
+		margin: 0px 0px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		text-align: center;
+	}
+	.CARDTEXT-First-Image{
+		background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/life-styles/group-10@2x.png);
+		width: 553px;
+		height: 188px;
+		background-size: cover;
+		background-position-x: 50%;
+		background-position-y: 50%;
+		opacity: 0.7;
+	}
+	.CARDTEXT-Title{
+		font-size: 36px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: white;
+		margin: 0px 0px 16px 0px;
+		text-align: center;
+		padding-top: 65px;
+	}
+	.CARDTEXT-Para-Block{
+		padding: 20px 20px;
+		width: 513px;
+		height: 189px;
+	}
+	.CARDTEXT-Button{
+		text-decoration: none;
+		width: 338px;
+		height: 20px;
+		background-color: #451400;
+		border-style: none;
+		padding: 8px 16px;
+		margin: 48.2px 71.5px 0px 71.5px;
+	}
+	.Card-Des{
+		width: 509px;
+		height: 88.8px;
+		color: #451400;
+		font-family: 'Nunito', sans-serif;
+		font-size: 18px;
+	}
+	.CARDTEXT-Second-Image{
+		background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/life-styles/group-12@2x.png);
+		width: 553px;
+		height: 188px;
+		background-size: cover;
+		background-position-x: 50%;
+		background-position-y: 50%;
+		opacity: 0.7;
+	}
+	.CARDTEXT-Block{
+	border: 0.5px solid #212529;
+	margin: 61px 0px 21px 40px;
+	width: 553px;
+	float: left;
+	}
+	.CARDTEXT{
+		margin-left: 150px;
 	}
 }
