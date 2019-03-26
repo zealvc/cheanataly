@@ -414,7 +414,7 @@ body{
 .FOOT-Block{
 	background-color: #1b0800;
 	width: 100%;
-	height: 700.8px;
+	height: 715.8px;
 	padding: 16px 0px;
 }
 .FOOT-Title{
@@ -426,6 +426,98 @@ body{
 }
 .FOOT-Title-Block{
 	margin-top: 15px;
+}
+.FOOT-Media-Block{
+	padding-left: 15px;
+	width: 100%;
+	height: 111.6px;
+}
+.FOOT-Media-Title{
+	color: #d4cbc7;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-size: 18px;
+	margin: 15px 0px 0px 0px;
+	padding: 25px 0px;
+}
+.Foot-Media-Link{
+	text-decoration: none;
+	float: left;
+	margin-left: 20px;
+}
+.Foot-Media-Icon{
+	width: 40px;
+	height: 40px;
+}
+.FOOT-Down-Block{
+	padding-left: 15px;
+	width: 100%;
+	height: 114px;
+}
+.FOOT-Down-Title{
+	color: #d4cbc7;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-size: 18px;
+	margin: 15px 0px 15px 0px;
+	padding: 10px 0px;
+}
+.FOOT-Down-Link{
+	text-decoration: none;
+	padding: 20px 10px 20px 16px;
+}
+.FOOT-Download{
+	width: 140px;
+	height: 42px;
+}
+.FOOT-About-Block{
+	padding-left: 15px;
+	width: 100%;
+	height: 194px;
+}
+.FOOT-About-Title{
+	color: #d4cbc7;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-size: 18px;
+	margin: 10px 0px 10px 0px;
+	padding: 5px 0px;
+}
+.FOOT-About-Link{
+	text-decoration: none;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-size: 13px;
+}
+.FOOT-About-Link-Block{
+	margin-top: 0px;
+	width: 140.6px;
+	height: 29.6px;
+}
+.FOOT-About-FirstRow{
+	float: left;
+	margin-top: 10px;
+}
+.FOOT-About-SecondRow{
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.FOOT-Supply-Block{
+	width: 100%;
+	height: 17.6px;
+	padding: 8px 0px;
+	margin-left: 15px;
+}
+.FOOT-Supply-Link{
+	text-decoration: none;
+	color: white;
+	font-size: 11.2px;
+	font-family: 'Nunito', sans-serif;
+}
+.FOOTER-Link-Block{
+	width: 157.6px;
+	height: 17.6px;
+	padding: 8px 0px;
+	float: left;
+	margin-left: 15px;
 }
 /* iPad or Tablet*/
 @media only screen and (min-width: 768px)
