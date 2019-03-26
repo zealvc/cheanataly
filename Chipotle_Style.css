@@ -826,6 +826,60 @@ body{
 	width: 298px;
 	float: left;
 	}
+	.FOOT-Block{
+	background-color: #1b0800;
+	width: 100%;
+	height: 700.8px;
+	padding: 16px 0px;
+	}
+	.FOOT-Title{
+		text-decoration: none;
+		font-size: 30px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: white;
+		padding: 20px 15px;
+	}
+	.FOOT-Title-Block{
+		margin-top: 15px;
+	}
+		.FIND-Block{
+	width: 100%px;
+	height: 59.6px;
+	padding: 16px 0px;
+	background-color: #786259;
+	margin-top: 600px;
+	}
+	.FIND-Text{
+		font-family: 'Nunito', sans-serif;
+		font-size: 13px;
+		color: white;
+		width: 345.2px;
+		height: 17.6px;
+		margin: 0px 0px;	
+	}
+	.FIND-Input{
+		width: 315.2px;
+		height: 21px;
+		padding: 1px 30px 5px 0px;
+		border-bottom: 1px solid white;
+	}
+	.FOOT-Block{
+	background-color: #1b0800;
+	width: 100%;
+	height: 700.8px;
+	padding: 16px 0px;
+	margin-top: 500px;
+	}
+	.FOOT-Title{
+		text-decoration: none;
+		font-size: 30px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: white;
+		padding: 20px 15px;
+	}
+	.FOOT-Title-Block{
+		margin-top: 15px;
+	}
 }
 
 @media only screen and (min-width: 1024px)
@@ -1198,6 +1252,44 @@ body{
 	margin: 61px 0px 21px 40px;
 	width: 448px;
 	float: left;
+	}
+	.FIND-Block{
+	width: 100%px;
+	height: 59.6px;
+	padding: 16px 0px;
+	background-color: #786259;
+	margin-top: 600px;
+	}
+	.FIND-Text{
+		font-family: 'Nunito', sans-serif;
+		font-size: 13px;
+		color: white;
+		width: 345.2px;
+		height: 17.6px;
+		margin: 0px 0px;	
+	}
+	.FIND-Input{
+		width: 315.2px;
+		height: 21px;
+		padding: 1px 30px 5px 0px;
+		border-bottom: 1px solid white;
+	}
+	.FOOT-Block{
+	background-color: #1b0800;
+	width: 100%;
+	height: 700.8px;
+	padding: 16px 0px;
+	margin-top: 500px;
+	}
+	.FOOT-Title{
+		text-decoration: none;
+		font-size: 30px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: white;
+		padding: 20px 15px;
+	}
+	.FOOT-Title-Block{
+		margin-top: 15px;
 	}
 
 }
@@ -1600,5 +1692,43 @@ body{
 	}
 	.CARDTEXT{
 		margin-left: 150px;
+	}
+	.FIND-Block{
+	width: 100%px;
+	height: 59.6px;
+	padding: 16px 0px;
+	background-color: #786259;
+	margin-top: 600px;
+	}
+	.FIND-Text{
+		font-family: 'Nunito', sans-serif;
+		font-size: 13px;
+		color: white;
+		width: 345.2px;
+		height: 17.6px;
+		margin: 0px 0px;	
+	}
+	.FIND-Input{
+		width: 315.2px;
+		height: 21px;
+		padding: 1px 30px 5px 0px;
+		border-bottom: 1px solid white;
+	}
+	.FOOT-Block{
+	background-color: #1b0800;
+	width: 100%;
+	height: 700.8px;
+	padding: 16px 0px;
+	margin-top: 500px;
+	}
+	.FOOT-Title{
+		text-decoration: none;
+		font-size: 30px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: white;
+		padding: 20px 15px;
+	}
+	.FOOT-Title-Block{
+		margin-top: 15px;
 	}
 }
