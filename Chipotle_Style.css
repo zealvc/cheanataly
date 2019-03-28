@@ -198,23 +198,33 @@ body{
 }
 .What-I-Eat-Select-Block{
 	float: left;
-	padding: 2px 1px;
+	padding: 5px 1px;
 	width: 303.775px;
 	height: 22.4px;
 	margin-left: 0px;
-}
-.What-I-Eat-Select{
-	border-style: none;
-	background: url(https://chipotle.com/etc.clientlibs/chipotle/clientlibs/chipotle-core/resources/images/closed.png);
-	background-size: 20px 20px;
-	background-position-x: 96%;
-	background-position-y: 50%;
-	float: left;
 	border-bottom: 1px solid #451400;
 	border-top: transparent;
 	border-right: transparent;
 	border-left: transparent;
 	border-top: transparent;
+}
+.What-I-Eat-Select{
+	border-style: none;
+	background: url(https://chipotle.com/etc.clientlibs/chipotle/clientlibs/chipotle-core/resources/images/closed.png);
+	background-repeat: no-repeat;
+	color: #b68207;
+	font-size: 24px;
+	width: 303.775px;
+	font-weight: bold;
+	font-family: 'Fira Sans Extra Condensed', sans-serif; 
+	background-size: 20px 20px;
+	background-position-x: 96%;
+	background-position-y: 50%;
+	float: left;
+}
+select{
+	-webkit-appearance: none;
+	appearance: none;
 }
 .What-I-Eat-Option{
 	color: #b68207;
@@ -393,9 +403,14 @@ body{
 }
 .FIND-Block{
 	width: 375.2px;
-	height: 59.6px;
-	padding: 16px 0px;
+	height: 69.6px;
+	padding: 0px 0px 30px 0px;
 	background-color: #786259;
+}
+.FIND-Image{
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
 }
 .FIND-Text{
 	font-family: 'Nunito', sans-serif;
@@ -403,13 +418,43 @@ body{
 	color: white;
 	width: 345.2px;
 	height: 17.6px;
-	margin: 0px 0px;	
+	margin: 0px 0px;
+	padding-left: 15px;	
+}
+.FIND-Input-Block{
+	margin-top: 10px;
+	padding-top: 5px;
 }
 .FIND-Input{
-	width: 315.2px;
+	width: 292.2px;
 	height: 21px;
 	padding: 1px 30px 5px 0px;
+	border: none;
 	border-bottom: 1px solid white;
+	color: white;
+	background-color: #786259;
+	margin-left: 15px;
+	float: left;
+	color: white;
+}
+::placeholder{
+	color: white;
+	width: 222.462px;
+	height: 26.388px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 17.9404px;
+}
+.FIND-SearchButton{
+	background-color: #786259;
+	border-style: none;
+	float: left;
+	border-bottom: 1px solid white;
+	margin-top: 0px;
+	padding: 0px 0px 7px 0px;
+}
+.FIND-Search-Icon{
+	width: 16px;
+	height: 16px;
 }
 .FOOT-Block{
 	background-color: #1b0800;
@@ -737,11 +782,15 @@ body{
 		margin-left: 5px;
 		margin-top: 17px;
 	}
+	select{
+		-webkit-appearance: none;
+		appearance: none;
+	}
 	.What-I-Eat-Block{
 	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/banners/background-images/home-page/what-should-i-eat-it/background-image-what-should-i-eat@3x_cropped.png);
 	width: 738px;
 	height: 74.8px;
-	padding: 36px 15px;
+	padding: 36px 25px;
 	border-bottom: 1px solid #d4cbc7;
 	background-repeat: repeat;
 	margin-top: 400px;
@@ -753,11 +802,16 @@ body{
 		margin: 8px 0px;
 	}
 	.What-I-Eat-Select-Block{
-	float: left;
-	padding: 2px 1px;
-	width: 633.6px;
-	height: 22.4px;
-	margin-left: 0px;
+		float: left;
+		padding: 5px 1px;
+		width: 633.6px;
+		height: 22.4px;
+		margin-left: 0px;
+		border-bottom: 1px solid #451400;
+		border-top: transparent;
+		border-right: transparent;
+		border-left: transparent;
+		border-top: transparent;
 	}
 	.What-I-Eat-Select{
 		border-style: none;
@@ -766,11 +820,9 @@ body{
 		background-position-x: 96%;
 		background-position-y: 50%;
 		float: left;
-		border-bottom: 1px solid #451400;
-		border-top: transparent;
-		border-right: transparent;
-		border-left: transparent;
-		border-top: transparent;
+		width: 633.6px;
+		background-repeat: no-repeat;
+
 	}
 	.What-I-Eat-Option{
 		color: #b68207;
@@ -952,26 +1004,60 @@ body{
 	width: 298px;
 	float: left;
 	}
-	.FIND-Block{
-	width: 100%;
-	height: 60px;
-	padding: 15px 0px;
-	background-color: #786259;
-	margin-top: 0px;
+	select{
+		-webkit-appearance: none;
+		appearance: none;
 	}
-	.FIND-Text{
-		font-family: 'Nunito', sans-serif;
-		font-size: 13px;
-		color: white;
-		width: 345.2px;
-		height: 17.6px;
-		margin: 0px 0px;	
+	.What-I-Eat-Block{
+	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/banners/background-images/home-page/what-should-i-eat-it/background-image-what-should-i-eat@3x_cropped.png);
+	width: 738px;
+	height: 74.8px;
+	padding: 36px 25px;
+	border-bottom: 1px solid #d4cbc7;
+	background-repeat: repeat;
+	margin-top: 400px;
 	}
-	.FIND-Input{
-		width: 315.2px;
-		height: 21px;
-		padding: 1px 30px 5px 0px;
-		border-bottom: 1px solid white;
+	.What-I-Eat-Para{
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;
+		margin: 8px 0px;
+	}
+	.What-I-Eat-Select-Block{
+		float: left;
+		padding: 5px 1px;
+		width: 633.6px;
+		height: 22.4px;
+		margin-left: 0px;
+		border-bottom: 1px solid #451400;
+		border-top: transparent;
+		border-right: transparent;
+		border-left: transparent;
+		border-top: transparent;
+	}
+	.What-I-Eat-Select{
+		border-style: none;
+		background: url(https://chipotle.com/etc.clientlibs/chipotle/clientlibs/chipotle-core/resources/images/closed.png);
+		background-size: 20px 20px;
+		background-position-x: 96%;
+		background-position-y: 50%;
+		float: left;
+		width: 633.6px;
+		background-repeat: no-repeat;
+
+	}
+	.What-I-Eat-Option{
+		color: #b68207;
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+	}
+	.What-I-Eat-Ques{
+		font-size: 24px;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		color: #451400;
+		float: left;
+		margin-top: 0px;
+		margin-left: 5px;
 	}
 	.FOOT-Block{
 	background-color: #1b0800;
@@ -1267,6 +1353,10 @@ body{
 		margin-left: 10px;
 		margin-top: 17px;
 	}
+	select{
+		-webkit-appearance: none;
+		appearance: none;
+	}
 	.What-I-Eat-Block{
 	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/banners/background-images/home-page/what-should-i-eat-it/background-image-what-should-i-eat@3x_cropped.png);
 	width: 994px;
@@ -1275,6 +1365,7 @@ body{
 	border-bottom: 1px solid #d4cbc7;
 	background-repeat: repeat;
 	margin-top: 640px;
+
 	}
 	.What-I-Eat-Para{
 		font-size: 48px;
@@ -1284,11 +1375,16 @@ body{
 		text-align: center;
 	}
 	.What-I-Eat-Select-Block{
-	float: left;
-	padding: 10px 0px 5px 13px;
-	width: 365.6px;
-	height: 22.4px;
-	margin-left: 300px;
+		float: left;
+		padding: 10px 0px 5px 0px;
+		width: 419px;
+		height: 44.8px;
+		margin-left: 280px;
+		border-bottom: 4px solid #451400;
+		border-top: transparent;
+		border-right: transparent;
+		border-left: transparent;
+		border-top: transparent;
 	}
 	.What-I-Eat-Select{
 		border-style: none;
@@ -1297,11 +1393,10 @@ body{
 		background-position-x: 96%;
 		background-position-y: 50%;
 		float: left;
-		border-bottom: 4px solid #451400;
-		border-top: transparent;
-		border-right: transparent;
-		border-left: transparent;
-		border-top: transparent;
+		width: 419px;
+		font-size: 48px;
+		background-repeat: no-repeat;
+
 	}
 	.What-I-Eat-Option{
 		color: #b68207;
@@ -1309,12 +1404,13 @@ body{
 		font-family: 'Fira Sans Extra Condensed', sans-serif;
 	}
 	.What-I-Eat-Ques{
-		font-size: 24px;
+		font-size: 48px;
 		font-family: 'Fira Sans Extra Condensed', sans-serif;
 		color: #451400;
 		float: left;
 		margin-top: 0px;
 		margin-left: 0px;
+		font-weight: bold;
 	}
 	.Card-Block{
 		display: none;
@@ -1494,25 +1590,52 @@ body{
 	float: left;
 	}
 	.FIND-Block{
-	width: 100%px;
+	width: 100%;
 	height: 60px;
 	padding: 15px 0px;
 	background-color: #786259;
 	margin-top: 0px;
 	}
+	.FIND-Image{
+	visibility: visible;
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-left: 40px;
+	}
 	.FIND-Text{
 		font-family: 'Nunito', sans-serif;
-		font-size: 13px;
+		font-size: 18px;
 		color: white;
-		width: 345.2px;
-		height: 17.6px;
-		margin: 0px 0px;	
+		width: 187.137px;
+		height: 21.6px;
+		margin-top: 20px;
+		margin-left: 25px;
+		padding: 0px 32px 0px 22px;
+		float: left;	
+	}
+	.FIND-Input-Block{
+		float: left;
 	}
 	.FIND-Input{
-		width: 315.2px;
+		width: 290px;
 		height: 21px;
 		padding: 1px 30px 5px 0px;
+		border: none;
 		border-bottom: 1px solid white;
+		color: white;
+		background-color: #786259;
+		margin-left: 15px;
+		float: left;
+		color: white;
+		margin-top: 10px;
+	}
+	.FIND-SearchButton{
+		margin-top: 8px;
+		padding: 0px 0px 9px 0px;
+	}
+	::placeholder{
+		font-size: 18px;
 	}
 	.FOOT-Block{
 	background-color: #1b0800;
@@ -1861,12 +1984,17 @@ body{
 		margin-top: 8px;
 	}
 	.What-I-Eat-Select-Block{
-	float: left;
-	padding: 2px 1px;
-	width: 533.6px;
-	height: 22.4px;
-	margin-left: 15px;
-	margin-top: 25px;
+		float: left;
+		padding: 8px 1px;
+		width: 513.5px;
+		height: 44.8px;
+		margin-left: 15px;
+		margin-top: 0px;
+		border-bottom: 3px solid #451400;
+		border-top: transparent;
+		border-right: transparent;
+		border-left: transparent;
+		border-top: transparent;
 	}
 	.What-I-Eat-Select{
 		border-style: none;
@@ -1875,11 +2003,8 @@ body{
 		background-position-x: 96%;
 		background-position-y: 50%;
 		float: left;
-		border-bottom: 1px solid #451400;
-		border-top: transparent;
-		border-right: transparent;
-		border-left: transparent;
-		border-top: transparent;
+		width: 513.5px;
+		background-repeat: no-repeat;
 	}
 	.What-I-Eat-Option{
 		color: #b68207;
@@ -2076,41 +2201,214 @@ body{
 		margin-left: 150px;
 	}
 	.FIND-Block{
-	width: 100%px;
-	height: 59.6px;
-	padding: 16px 0px;
+	width: 100%;
+	height: 60px;
+	padding: 15px 0px;
 	background-color: #786259;
-	margin-top: 600px;
+	margin-top: 0px;
+	}
+	.FIND-Image{
+	visibility: visible;
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-left: 290px;
 	}
 	.FIND-Text{
 		font-family: 'Nunito', sans-serif;
-		font-size: 13px;
+		font-size: 18px;
 		color: white;
-		width: 345.2px;
-		height: 17.6px;
-		margin: 0px 0px;	
+		width: 187.137px;
+		height: 21.6px;
+		margin-top: 17px;
+		margin-left: 25px;
+		padding: 0px 32px 0px 22px;
+		float: left;	
+	}
+	.FIND-Input-Block{
+		float: left;
 	}
 	.FIND-Input{
-		width: 315.2px;
+		width: 270px;
 		height: 21px;
 		padding: 1px 30px 5px 0px;
+		border: none;
 		border-bottom: 1px solid white;
+		color: white;
+		background-color: #786259;
+		margin-left: 15px;
+		float: left;
+		color: white;
+		margin-top: 10px;
+	}
+	.FIND-SearchButton{
+		margin-top: 8px;
+		padding: 0px 0px 9px 0px;
+	}
+	::placeholder{
+		font-size: 18px;
 	}
 	.FOOT-Block{
 	background-color: #1b0800;
 	width: 100%;
-	height: 700.8px;
-	padding: 16px 0px;
-	margin-top: 500px;
+	height: 355.2px;
+	padding: 1px 0px;
+	margin-top: 0px;
+	}
+	.FOOT-Block1{
+		height: 300px;
+		margin-left: 250px;
+	}
+	.FOOT-Block2{
+		margin-left: 250px;
+	}
+	.FOOT-Three-Link{
+		height: 80px
 	}
 	.FOOT-Title{
 		text-decoration: none;
 		font-size: 30px;
 		font-family: 'Fira Sans Extra Condensed', sans-serif;
 		color: white;
-		padding: 20px 15px;
+		padding: 20px 38px;
 	}
 	.FOOT-Title-Block{
-		margin-top: 15px;
+		margin-top: 25px;
+		float: left;
+	}
+	.FOOT-Media-Block{
+		padding-left: 368px;
+		height: 111.6px;
+		float: left;
+	}
+	.FOOT-Media-Title{
+		color: #d4cbc7;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		font-size: 18px;
+		margin: 5px 0px 0px 0px;
+		padding: 20px 0px;
+	}
+	.Foot-Media-Link{
+		text-decoration: none;
+		float: left;
+		margin-left: 20px;
+	}
+	.Foot-Media-Icon{
+		width: 40px;
+		height: 40px;
+	}
+	.FOOT-Down-Block{
+		padding-left: 38px;
+		height: 114px;
+		float: left;
+	}
+	.FOOT-Down-Title{
+		color: #d4cbc7;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		font-size: 18px;
+		margin: 10px 0px 15px 35px;
+		padding: 10px 0px;
+	}
+	.FOOT-Down-Link{
+		text-decoration: none;
+		padding: 20px 10px 20px 26px;
+	}
+	.FOOT-Download{
+		width: 140px;
+		height: 42px;
+		margin-left: 10px;
+	}
+	.FOOT-About-Desktop-Block{
+		visibility: visible;
+		padding-left: 38px;
+		height: 175px;
+		float: left;
+	}
+	.FOOT-About-Block{
+		visibility: hidden;
+		width: 0px;
+		height: 0px;
+	}
+	.FOOT-About-Title{
+		color: #d4cbc7;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+		font-size: 18px;
+		margin: 10px 0px 10px 0px;
+		padding: 10px 0px;
+	}
+	.FOOT-About-Link{
+		text-decoration: none;
+		color: white;
+		font-family: 'Nunito', sans-serif;
+		font-size: 13px;
+	}
+	.FOOT-About-Link-Block{
+		margin-top: 0px;
+		width: 345px;
+		height: 29.6px;
+	}
+	.FOOT-About-Desktop-FirstRow{
+		visibility: visible;
+		float: left;
+		margin-top: 10px;
+	}
+	.FOOT-About-FirstRow{
+		display: none;
+	}
+	.FOOT-About-Desktop-SecondRow{
+		visibility: visible;
+		float: left;
+		margin-left: 150px;
+		margin-top: 10px;
+	}
+	.FOOT-About-SecondRow{
+		display: none;
+	}
+	.FOOT-Supply-Block{
+		height: 17.6px;
+		padding: 8px 0px;
+		margin-left: 38px;
+		margin-top: 0px;
+		float: left;
+	}
+	.FOOT-Supply-Link{
+		text-decoration: none;
+		color: white;
+		font-size: 11.2px;
+		font-family: 'Nunito', sans-serif;
+	}
+	.FOOTER-Link-Block1{
+		width: 67.513px;
+		height: 17.6px;
+		padding: 8px 8px;
+		float: left;
+		margin-left: 260px;
+	}
+	.FOOTER-Link-Block2{
+		width: 121.05px;
+		height: 17.6px;
+		padding: 8px 8px;
+		float: left;
+		margin-left: 0px;
+	}
+	.FOOTER-Link-Block3{
+		width: 71.35px;
+		height: 17.6px;
+		padding: 8px 8px;
+		float: left;
+		margin-left: 0px;
+	}
+	.FOOTER-Link-Block4{
+		width: 154.45px;
+		height: 17.6px;
+		padding: 8px 0px;
+		float: left;
+		margin-left: 0px;
+	}
+	.FOOT-LINK{
+		float: left;
+	}
+	.FOOT-LINK-LEFT{
+		float: left;
 	}
 }
