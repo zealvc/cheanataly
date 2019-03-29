@@ -190,11 +190,17 @@ body{
 	border-bottom: 1px solid #d4cbc7;
 	background-repeat: repeat;
 }
+.What-I-Eat{
+	width: 345.2px;
+	height: 76.8px;
+	background-color: #f7f2ed;
+}
 .What-I-Eat-Para{
 	font-size: 24px;
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
 	color: #451400;
 	margin: 8px 0px;
+	background-color: #f7f2ed;
 }
 .What-I-Eat-Select-Block{
 	float: left;
@@ -239,8 +245,9 @@ select{
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
 	color: #451400;
 	float: left;
-	margin-top: 0px;
-	margin-left: 5px;
+	margin-top: 5px;
+	margin-left: 0px;
+	font-weight: bold;
 }
 .Card-Block{
 	border: 0.5px solid #212529;
@@ -640,10 +647,10 @@ select{
 		padding: 0px 8px;
 	}
 	.Nav-Bar-HamIcon{
-	width: 24px;
-	height: 16px;
-	margin-top: 15px;
-	float: left;
+		width: 24px;
+		height: 16px;
+		margin-top: 15px;
+		float: left;
 	}
 	.Nav-Bar-Logo-Link{
 	text-decoration: none;
@@ -794,6 +801,11 @@ select{
 	border-bottom: 1px solid #d4cbc7;
 	background-repeat: repeat;
 	margin-top: 400px;
+	}
+	.What-I-Eat{
+		width: 720px;
+		height: 64.8px;
+		background-color: #f7f2ed;
 	}
 	.What-I-Eat-Para{
 		font-size: 24px;
@@ -958,7 +970,6 @@ select{
 		background-size: cover;
 		background-position-x: 50%;
 		background-position-y: 50%;
-		opacity: 0.7;
 	}
 	.CARDTEXT-Title{
 		font-size: 36px;
@@ -966,6 +977,7 @@ select{
 		color: white;
 		margin: 0px 0px 16px 0px;
 		text-align: center;
+		padding-left: 20px;
 		padding-top: 65px;
 	}
 	.CARDTEXT-Para-Block{
@@ -1012,7 +1024,7 @@ select{
 	background-image: url(https://chipotle.com/content/dam/chipotle/global-site-design/en/banners/background-images/home-page/what-should-i-eat-it/background-image-what-should-i-eat@3x_cropped.png);
 	width: 738px;
 	height: 74.8px;
-	padding: 36px 25px;
+	padding: 36px 15px;
 	border-bottom: 1px solid #d4cbc7;
 	background-repeat: repeat;
 	margin-top: 400px;
@@ -1022,13 +1034,14 @@ select{
 		font-family: 'Fira Sans Extra Condensed', sans-serif;
 		color: #451400;
 		margin: 8px 0px;
+		margin-left: 10px;
 	}
 	.What-I-Eat-Select-Block{
 		float: left;
 		padding: 5px 1px;
 		width: 633.6px;
 		height: 22.4px;
-		margin-left: 0px;
+		margin-left: 10px;
 		border-bottom: 1px solid #451400;
 		border-top: transparent;
 		border-right: transparent;
@@ -1058,6 +1071,54 @@ select{
 		float: left;
 		margin-top: 0px;
 		margin-left: 5px;
+	}
+	.FIND-Block{
+	width: 100%;
+	height: 60px;
+	padding: 15px 0px;
+	background-color: #786259;
+	margin-top: 0px;
+	}
+	.FIND-Image{
+	visibility: visible;
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-left: 40px;
+	}
+	.FIND-Text{
+		font-family: 'Nunito', sans-serif;
+		font-size: 18px;
+		color: white;
+		width: 187.137px;
+		height: 21.6px;
+		margin-top: 20px;
+		margin-left: 25px;
+		padding: 0px 32px 0px 22px;
+		float: left;	
+	}
+	.FIND-Input-Block{
+		float: left;
+	}
+	.FIND-Input{
+		width: 290px;
+		height: 21px;
+		padding: 1px 30px 5px 0px;
+		border: none;
+		border-bottom: 1px solid white;
+		color: white;
+		background-color: #786259;
+		margin-left: 15px;
+		float: left;
+		color: white;
+		margin-top: 10px;
+	}
+	.FIND-SearchButton{
+		margin-top: 8px;
+		padding: 0px 0px 9px 0px;
+	}
+	::placeholder{
+		font-size: 18px;
 	}
 	.FOOT-Block{
 	background-color: #1b0800;
@@ -1365,7 +1426,12 @@ select{
 	border-bottom: 1px solid #d4cbc7;
 	background-repeat: repeat;
 	margin-top: 640px;
-
+	}
+	.What-I-Eat{
+		width: 960px;
+		height: 119.6px;
+		background-color: #f7f2ed;
+		margin-left: 18px;
 	}
 	.What-I-Eat-Para{
 		font-size: 48px;
@@ -1408,7 +1474,7 @@ select{
 		font-family: 'Fira Sans Extra Condensed', sans-serif;
 		color: #451400;
 		float: left;
-		margin-top: 0px;
+		margin-top: 8px;
 		margin-left: 0px;
 		font-weight: bold;
 	}
@@ -1488,10 +1554,10 @@ select{
 		float: left;
 	}
 	.GUA-Img{
-	width: 599.763px;
-	height: 424px;
-	margin-left: 205px;
-	margin-top: 100px;
+		width: 599.763px;
+		height: 424px;
+		margin-left: 205px;
+		margin-top: 100px;
 	}
 	.GUA-Para{
 		color: #451400;
@@ -1975,21 +2041,27 @@ select{
 	background-repeat: repeat;
 	margin-top: 680px;
 	}
+	.What-I-Eat{
+		width: 1130px;
+		height: 74.8px;
+		background-color: #f7f2ed;
+		margin-left: 178px;
+	}
 	.What-I-Eat-Para{
 		font-size: 48px;
 		font-family: 'Fira Sans Extra Condensed', sans-serif;
 		color: #451400;
 		float: left;
-		margin-left: 200px;
+		margin-left: 40px;
 		margin-top: 8px;
 	}
 	.What-I-Eat-Select-Block{
 		float: left;
-		padding: 8px 1px;
+		padding: 5px 1px;
 		width: 513.5px;
 		height: 44.8px;
 		margin-left: 15px;
-		margin-top: 0px;
+		margin-top: 3px;
 		border-bottom: 3px solid #451400;
 		border-top: transparent;
 		border-right: transparent;
@@ -2020,8 +2092,8 @@ select{
 		margin-left: 5px;
 	}
 	.What-I-Eat-Ques-Block{
-	float: left;
-	margin-top: 500px;
+		float: left;
+		margin-top: 0px;
 	}
 		.Card-Block{
 		display: none;
